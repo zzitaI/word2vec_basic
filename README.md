@@ -11,8 +11,9 @@ model=word2vec_basic()
 model.train()
 3. \# visualize it  
 model.visualize()  
-\# to see the word embeddings
--model.final_embeddings
-\# to see the words dictionary  
--model.reversed_dictionary
+
+*to see the word embeddings
+model.final_embeddings
+*to see the words dictionary  
+model.reversed_dictionary
 
